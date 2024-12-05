@@ -1,20 +1,6 @@
-Notice! this starter kit isn't fully finished, but I'm just making this public for now if anyone wants to add onto it. I'm getting burned out on working on this so I'm open to anyone wanting to help contribute to fixing up any bugs they find, etc.
-
-# Discord
-
-You can join the discord if you want to talk about the code here or suggest features / etc.
-
-[https://discord.gg/N2uEyp7Rfu](https://discord.gg/N2uEyp7Rfu)
-
-# Code Walkthrough (Early Access)
-
-For those wanting more hands on video walkthrough content that explains this code base, shows how to deploy it, and how to maintain it in production, I'm working on a paid video walkthrough series found here [https://webdevcody.gumroad.com/l/wdc-saas-starter-kit-walkthrough](https://webdevcody.gumroad.com/l/wdc-saas-starter-kit-walkthrough). I'm in the process of recording and editing videos, but if you purchase now it's 50% off the original pricing.
-
-# Welcome to the Starter Kit
-
 Welcome to the WDC Next.js Starter Kit! This is a github template which contains the following technology we feel is a great starting point for any new SaaS product:
 
-- Authorization
+- Authorization   
 - Subscription Management (Stripe)
 - Stripe Integration / Webhooks
 - Group Management
