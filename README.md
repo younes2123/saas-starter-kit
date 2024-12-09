@@ -111,7 +111,7 @@ Stripe has a built in way for customers to cancel their subscriptions. You'll ne
 
 ## HOST_NAME
 
-When deplying to production, you want to set HOST_NAME to your FQDN, such as `https://you-domain.com`
+When deploying to production, you want to set HOST_NAME to your FQDN, such as `https://you-domain.com`
 
 ## Auth Setup
 
