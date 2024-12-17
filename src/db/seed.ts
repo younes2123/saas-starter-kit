@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 import { database, pg } from "./index";
-import { accounts, groups, profiles, users } from "@/db/schema";
+import { accounts, profiles, users } from "@/db/schema";
 
 async function main() {
   const [user] = await database
@@ -34,16 +34,6 @@ async function main() {
       displayName: "Test User",
     })
     .onConflictDoNothing()
-    .returning();
-
-  const [group] = await database
-    .insert(groups)
-    .values({
-      name: "Test Group",
-      description: "This is a test group",
-      isPublic: true,
-      userId: user.id,
-    })
     .returning();
 
   await pg.end();
