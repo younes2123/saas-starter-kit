@@ -1,28 +1,3 @@
-Welcome to the WDC Next.js Starter Kit! This is a github template which contains the following technology we feel is a great starting point for any new SaaS product:
-
-- Authorization   
-- Subscription Management (Stripe)
-- Stripe Integration / Webhooks
-- Group Management
-- File Upload to R2
-- Drizzle ORM
-- Light / Dark Mode
-- ShadCN
-- Tailwind CSS
-- Posthog Analytics
-
-## Contributing
-
-If you find obvious issues with this starter kit, feel free to submit a pull request or submit and issue. We want to keep this starter simple with the core technology picked, so we don't recommend trying to add in various things without prior approval.
-
-## How to Get Started
-
-Start by clicking the "use this template" button on the github repo. We suggest creating a new repository so you can track your code changes. After, clone your own repository down to your computer and start working on it.
-
-### Prerequisites
-
-This starter kit does uses Docker and Docker Compose to run a postgres database, so you will need to either have those installed, or modify the project to point to a hosted database solution.
-
 ## How to Run
 
 1. `cp .env.sample .env`

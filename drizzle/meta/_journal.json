@@ -29,6 +29,13 @@
       "when": 1729521918618,
       "tag": "0003_sad_shadow_king",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1734461471676,
+      "tag": "0004_tired_power_man",
+      "breakpoints": true
     }
   ]
 }

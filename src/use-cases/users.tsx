@@ -251,12 +251,12 @@ export async function verifyEmailUseCase(token: string) {
   return userId;
 }
 
-export async function getUnreadNotificationsForUserUseCase(userId: UserId) {
-  return await getTop3UnreadNotificationsForUser(userId);
-}
+// export async function getUnreadNotificationsForUserUseCase(userId: UserId) {
+//   return await getTop3UnreadNotificationsForUser(userId);
+// }
 
-export async function getNotificationsForUserUseCase(userId: UserId) {
-  const notifications = await getNotificationsForUser(userId);
-  notifications.sort((a, b) => b.createdOn.getTime() - a.createdOn.getTime());
-  return notifications;
-}
+// export async function getNotificationsForUserUseCase(userId: UserId) {
+//   const notifications = await getNotificationsForUser(userId);
+//   notifications.sort((a, b) => b.createdOn.getTime() - a.createdOn.getTime());
+//   return notifications;
+// }
